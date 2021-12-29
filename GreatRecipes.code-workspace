@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\Pictures\\Web Design Projects\\GreatRecipes\\Assets"
+		}
+	],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Recipe_Website"
+  }
+}

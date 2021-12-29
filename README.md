@@ -1,2 +1,2 @@
 # Recipe_Website
- Recipe Website created by us utilizing advice from John Smilga
+ Recipe Website created by Friends Media Design

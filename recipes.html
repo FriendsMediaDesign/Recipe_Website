@@ -9,8 +9,7 @@
   <title>GreatRecipes | Recipes</title>
 
   <!--Browser Tab Icon Image Link-->
-  <link rel="shortcut icon" href="Assets\chef 01 ico.ico" type="image/x-icon" />
-  <!--Browser Tab Icon Image Link-->
+  <link rel="shortcut icon" href="/Assets/Chef ico.ico" type="image/x-icon" />  <!--Browser Tab Icon Image Link-->
 
     <!-- font-awesome -->
     <script src="https://kit.fontawesome.com/e9ee3c3a44.js" crossorigin="anonymous"></script>
@@ -22,7 +21,7 @@
           <!-- header -->
           <div class="nav-header">
             <a href="index.html" class="nav-logo">
-              <img src="Assets\GreatRecipes logo.svg" alt="GreatRecipes">
+              <img src="Assets\GreatRecipes logo.svg" alt="GreatRecipes" />
             </a>
               <button class="btn nav-btn">
                 <i class="fas fa-hamburger"></i>
@@ -41,8 +40,57 @@
     </nav>
     <!-- end of nav -->
     <!-- main-->
-    <main class="page"></main>
-      <h1>Recipes Page</h1>
+    <main class="page">
+      <!-- recipes container -->
+      <section class="recipes-container">
+        <!-- tags container -->
+        <div class="tags-container">
+          <h4>recipes</h4>
+          <div class="tags-list">
+            <a href="tag-template.html"> Beef (1)</a>
+            <a href="tag-template.html"> Breakfast (2)</a>
+            <a href="tag-template.html"> Potato (3)</a>
+            <a href="tag-template.html"> Food (4)</a>
+          </div>
+        </div>
+        <!-- end of tags container -->
+
+        <!-- recipes list -->
+        <div class="recipes-list">
+          <!-- single recipe -->
+            <a href="single-recipe.html" class="recipe">
+              <img src="/Assets/Recipes/recipe-1.jpg" alt="food" class="img recipe-img"/>
+              <h5>cantina tacos</h5>
+              <p>Prep : 30min | Cook 10min: </p>
+            </a>
+            <!-- end of single recipe -->
+            <!-- single recipe -->
+            <a href="single-recipe.html" class="recipe">
+              <img src="/Assets/Recipes/recipe-2.jpg" alt="food" class="img recipe-img"/>
+              <h5>Smoked Brisket</h5>
+              <p>Prep : 60min | Cook 5hrs: </p>
+            </a>
+            <!-- end of single recipe -->
+            <!-- single recipe -->
+            <a href="single-recipe.html" class="recipe">
+              <img src="/Assets/Recipes/recipe-3.jpg" alt="food" class="img recipe-img"/>
+              <h5>Loaded Baked Potato Soup</h5>
+              <p>Prep : 10min | Cook 30min: </p>
+            </a>
+            <!-- end of single recipe -->
+            <!-- single recipe -->
+            <a href="single-recipe.html" class="recipe">
+              <img src="/Assets/Recipes/recipe-4.jpg" alt="food" class="img recipe-img"/>
+              <h5>Blueberry Pancakes</h5>
+              <p>Prep : 10min | Cook 15min: </p>
+            </a>
+            <!-- end of single recipe -->
+        </div>      
+        <!-- end of recipes list -->
+      </section>   
+      <!-- end of recipes container -->
+    </main>
+      
     <!-- end of main-->
     <footer class="page-footer">
       <p>&copy;<span id="date"></span>

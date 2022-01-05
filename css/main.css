@@ -455,7 +455,7 @@ Hero
 
 /*
 =============== 
-
+Recipes
 ===============
 */
 .recipes-container {
@@ -526,16 +526,19 @@ Hero
 	}
 	.recip-img {
 		height: 10rem;
-	}
-	.about-img {
-		height: 100%;
-	}
+
 }
 
 @media screen and (min-width: 992px) {
 	.recipes-container {
 		grid-template-columns: 200px 1fr;
+		gap: 1rem;
 	}
+
+.recipe-list {
+	grid-template-columns: 1fr 1fr;
+}
+
 	.recipe p {
 		font-size: 0.85rem;
 	}
@@ -549,7 +552,7 @@ Hero
 		font-size: 1.15rem;
 	}
 	.recipes-list {
-		grid-template-columns: 1fr;
+		grid-template-columns: 1fr 1fr 1fr;
 	}
 }
 
@@ -569,7 +572,7 @@ Error
 
 /*
 =============== 
-About
+About Page
 ===============
 */
 .about-page {
@@ -605,7 +608,7 @@ About
 
 /*
 =============== 
-Contact
+Contact Page
 ===============
 */
 .contact-form {
@@ -628,7 +631,46 @@ Contact
 
 /*
 =============== 
-Single Resipe Page
+Tags Page
+===============
+*/
+.tags-wrapper {
+  display: grid;
+  gap: 2rem;
+  padding-bottom: 3rem;
+}
+.tag {
+  background: var(--grey-500);
+  border-radius: var(--borderRadius);
+  text-align: center;
+  color: var(--white);
+  transition: var(--transition);
+  padding: 0.75rem 0;
+}
+.tag:hover {
+  background: var(--primary-500);
+}
+.tag h5,
+.tag p {
+  margin-bottom: 0;
+}
+.tag h5 {
+  font-weight: 600;
+}
+@media screen and (min-width: 576px) {
+  .tags-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (min-width: 992px) {
+  .tags-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/*
+=============== 
+Single Recipe Page
 ===============
 */
 

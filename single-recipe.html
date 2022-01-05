@@ -21,7 +21,7 @@
           <!-- header -->
           <div class="nav-header">
             <a href="index.html" class="nav-logo">
-              <img src="Assets\GreatRecipes logo.svg" alt="GreatRecipes">
+              <img src="Assets/GreatRecipes logo.svg" alt="GreatRecipes">
             </a>
               <button class="btn nav-btn">
                 <i class="fas fa-hamburger"></i>
@@ -41,9 +41,100 @@
     <!-- end of nav -->
     <!-- main-->
     <main class="page">
-      <h1>Single Recipe Page</h1>
+      <div class="recipe-page" />
+        <section class="recipe-hero">
+          <img
+          src="/Assets/Recipes/recipe-4.jpg"
+          class="image recipe-hero-img"
+          alt="Pancakes"/>
+          <article>
+            <h2>Blueberry Pancakes</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ducimus perferendis repellendus possimus consequuntur doloribus quis ipsa autem aspernatur minima laudantium nisi consectetur earum hic architecto in mollitia, corporis iure labore ratione sit facere! Quibusdam, est officia voluptatum expedita harum tenetur hic non earum ducimus quia vel. Eius, alias reiciendis suscipit ea nostrum, adipisci aliquid, harum possimus itaque officia saepe.              
+            </p>
+            
+            <div class="recipe-icons">
+              <!-- Single Recipe Icon-->
+              <article>
+                <i class="fa-solid fa-utensils"></i>
+                <h5>prep time</h5>
+                <p>30 min</p>
+              </article>
+              <!-- Single Recipe Icon-->
+              <article>
+                <i class="fa-solid fa-clock"></i>
+                <h5>cook time</h5>
+                <p>15 min</p>
+              </article>
+              <!-- Single Recipe Icon-->
+              <article>
+                <i class="fa-solid fa-user-group"></i>
+                <h5>Servings</h5>
+                <p>6 Servings</p>
+              </article>
+            </div>
+            <!-- Recipe Tags-->
+            <div class="recipe-tags">
+              <a href="tag-template.html">Beef</a>
+              <a href="tag-template.html">Breakfast</a>
+              <a href="tag-template.html">Potato</a>
+              <a href="tag-template.html">Food</a>
+          </article>
+        </section>
+          <!-- Recipe Content -->
+        <section class="recipe-content">
+          <article>
+            <h4>instructions</h4>
+            <!-- single instruction-->
+            <div class="single-instruction">
+              <header>
+                <p>step 1</p>
+                <div></div>
+              </header>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sapiente.
+              </p>
+            <!-- single instruction-->
+            <div class="single-instruction">
+              <header>
+                <p>step 2</p>
+                <div></div>
+              </header>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sapiente necessitatibus debitis. Inventore, natus eos? Sit similique ipsam nam quaerat?
+              </p>
+            <!-- single instruction-->
+            <div class="single-instruction">
+              <header>
+                <p>step 3</p>
+                <div></div>
+              </header>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, voluptas?
+              </p>
+            </div>
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>ingredients</h4>
+              <p class="single-ingrediant">
+                1 1/2 cup dry pancake mix
+              </p>
+              <p class="single-ingrediant">
+                1/2 cup flax seed meal
+              </p>
+              <p class="single-ingrediant">
+                1 cup skim milk
+              </p>
+            </div>
+            <div>
+              <h4>tools</h4>
+              <p class="single-tool">Hand Blender</p>
+              <p class="single-tool">Large pan with lid</p>
+              <p class="single-tool">Measuring spoons</p>
+              <p class="single-tool">Measuring cups</p>
+            </div>
+          </article>
+        </section>
+      </div>
     </main>
-      <h1>Single Recipe Page</h1>
+      
     <!-- end of main-->
     <footer class="page-footer">
       <p>&copy;<span id="date"></span>
